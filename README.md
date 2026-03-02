@@ -61,11 +61,9 @@ I'm a **Systems Engineering student** at Universidad de Lima (5th semester) base
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [**Project Name**](#) | Brief description of the project | React, Node.js |
-| [**Project Name**](#) | Brief description of the project | Angular, Firebase |
-| [**Project Name**](#) | Brief description of the project | Python, MySQL |
-
-> *Replace the placeholders above with your actual projects and repository links.*
+| [CodeSense](https://github.com/dmatiason09/codesense) | Static analysis CLI that detects code smells, complexity issues and style violations | Python, JavaScript, AST |
+| [AI Code Reviewer](https://github.com/dmatiason09/ai-code-reviewer) | Web app that evaluates AI-generated code for correctness, efficiency and best practices | React, TypeScript, Node.js |
+| [AlgoBank](https://github.com/dmatiason09/algobank) | 50+ algorithm & data structure implementations with Big O analysis and tests | Python, JavaScript, Jest |
 
 ---
 
