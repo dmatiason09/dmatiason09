@@ -13,14 +13,13 @@
 
 ## About
 
-Systems Engineering student at **Universidad de Lima** (5th semester), based in **Lima, Peru**. I'm on a 24-month transition into **Cloud Security Engineering** — focusing on IAM, infrastructure-as-code security, and DevSecOps tooling on AWS first, Azure next.
+Systems Engineering student at **Universidad de Lima**, based in **Lima, Peru**. Building toward **Cloud Security Engineering** — focusing on IAM, infrastructure-as-code security, and DevSecOps tooling on AWS, with Azure on the horizon.
 
-I learn in public. Every concept I study lands in a lab or a tool published on this profile, with code, tests, and references to recognized frameworks.
+I learn by building. Code, tests, and references to recognized frameworks live in every project I publish.
 
 - Currently building **[`multicloud-iam-lab`](https://github.com/dmatiason09/multicloud-iam-lab)** — IAM hardening + DevSecOps pipeline
-- Roadmap started **April 2026** — 8 certifications, certificate-driven through Phase 3 (CompTIA Security+ → AWS CCP → CCSK → AWS Security Specialty)
 - Languages: Spanish (native) · English (B2)
-- Open to **junior Cloud Security Engineer** roles starting **Q1 2027** (post-AWS Security Specialty) — on-site Lima or remote
+- Open to **junior Cloud Security Engineer** roles and internships — on-site Lima or remote
 
 ---
 
@@ -84,26 +83,7 @@ When I write detection logic or remediation, I map findings back to recognized b
 - AWS Foundational Security Best Practices (FSBP)
 - CIS AWS Benchmark v3.0
 - MITRE ATT&CK (Cloud techniques)
-- NIST Cybersecurity Framework 2.0 (in study)
-
-**Hands-on practice planned with** Prowler, Scout Suite, CloudGoat, and flAWS.cloud during AWS Security Specialty prep (Q4 2026 – Q1 2027).
-
----
-
-## Learning roadmap
-
-Public commitments. If a milestone slips, it slips on this README too.
-
-| When | Milestone |
-|---|---|
-| **Q3 2026** · Month 4 | **CompTIA Security+** (SY0-701) |
-| **Q3 2026** · Month 5 | **AWS Cloud Practitioner** (CLF-C02) |
-| **Q4 2026** · Month 6 | **CCSK Foundation** |
-| **Q1 2027** · Month 10 | **AWS Certified Security – Specialty** (SCS-C02) |
-| **Q1 2027** | First junior Cloud Security Engineer role / internship |
-| **Q2 2027** | `multicloud-iam-lab` v1.1 — Azure parity + ephemeral CI deploy |
-| **2027** (alongside first role) | **CCSP** · **CKA** · **CKS** |
-| **2028** | **CISSP** |
+- NIST Cybersecurity Framework 2.0
 
 ---
 
@@ -124,11 +104,6 @@ Public commitments. If a milestone slips, it slips on this README too.
 ## Get in touch
 
 Open to junior Cloud Security Engineer roles, internship opportunities, and pair-learning collaborations on AWS / Azure security labs.
-
-**Availability**
-
-- **Interviews:** from **October 2026** onward.
-- **Full-time / internship start:** from **February 2027** (post-AWS Security Specialty).
 
 <div align="center">
 
