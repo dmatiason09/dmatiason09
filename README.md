@@ -17,29 +17,45 @@ Systems Engineering student at **Universidad de Lima**, based in **Lima, Peru**.
 
 I learn by building. Code, tests, and references to recognized frameworks live in every project I publish.
 
-- Currently building **[`multicloud-iam-lab`](https://github.com/dmatiason09/multicloud-iam-lab)** — IAM hardening + DevSecOps pipeline
+- Open-source labs: **[`multicloud-iam-lab`](https://github.com/dmatiason09/multicloud-iam-lab)** (prevention) and **[`cloudtrail-threat-detector`](https://github.com/dmatiason09/cloudtrail-threat-detector)** (detection)
 - Languages: Spanish (native) · English (B2)
 - Open to **junior Cloud Security Engineer** roles and internships — on-site Lima or remote
 
 ---
 
-## Featured Lab — `multicloud-iam-lab` v1.0
+## Featured Labs
+
+Two paired projects covering the prevention–detection axis of cloud security engineering.
+
+### `multicloud-iam-lab` v1.0 — Prevention
 
 A hands-on lab that detects and remediates IAM misconfigurations on AWS, with a built-in DevSecOps pipeline.
 
-| What it does | Stack |
-|---|---|
-| Paired Terraform modules (`vulnerable/` vs `hardened/`) deploying five misconfigured AWS resources side-by-side with their secure counterparts | Terraform 1.6+, AWS Provider 5.x |
-| Python scanner detecting five IAM / S3 findings: MFA gaps, wildcard policies, public buckets, permissive role trusts, stale access keys | Python 3.11, boto3, moto, pytest (87% coverage) |
-| GitHub Actions pipeline auditing the repo on every PR with six jobs | Checkov, Semgrep, gitleaks, Trivy, pytest |
+- **Paired Terraform modules** (`vulnerable/` vs `hardened/`) deploying five misconfigured AWS resources side-by-side with their secure counterparts.
+- **Python scanner** detecting five IAM / S3 findings (MFA gaps, wildcard policies, public buckets, permissive role trusts, stale access keys). 87% test coverage with moto-mocked AWS.
+- **GitHub Actions pipeline** auditing the repo with Checkov, Semgrep, gitleaks, Trivy, and pytest.
 
-Findings map to **AWS Foundational Security Best Practices**, **CIS AWS Benchmark v3.0**, and **MITRE ATT&CK**.
+Findings map to **AWS FSBP**, **CIS Benchmark v3.0**, and **MITRE ATT&CK**.
 
-[![security-scan](https://github.com/dmatiason09/multicloud-iam-lab/actions/workflows/security-scan.yml/badge.svg)](https://github.com/dmatiason09/multicloud-iam-lab/actions/workflows/security-scan.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/dmatiason09/multicloud-iam-lab/blob/main/LICENSE)
+[![multicloud-iam-lab CI](https://github.com/dmatiason09/multicloud-iam-lab/actions/workflows/security-scan.yml/badge.svg)](https://github.com/dmatiason09/multicloud-iam-lab/actions/workflows/security-scan.yml)
 [![v1.0.0](https://img.shields.io/github/v/tag/dmatiason09/multicloud-iam-lab?label=release&color=00D9FF)](https://github.com/dmatiason09/multicloud-iam-lab/releases)
 
 → **[Explore the lab](https://github.com/dmatiason09/multicloud-iam-lab)**
+
+### `cloudtrail-threat-detector` v1.0 — Detection
+
+A pure-stdlib Python CLI that ingests AWS CloudTrail logs and detects five attacker behaviors with hardcoded rules.
+
+- **Five detection rules** (3 stateless, 2 stateful sliding-window) covering privilege escalation, reconnaissance, weak authentication, brute force, and unusual region activity.
+- **Bundled samples** simulating each attack scenario plus a benign baseline — try the tool without an AWS account.
+- **Self-auditing pipeline** (Semgrep, gitleaks, Trivy, pytest, sample validation). 95% test coverage.
+
+Each detection maps to a **MITRE ATT&CK** technique and ships with a response runbook in the catalog.
+
+[![cloudtrail-threat-detector CI](https://github.com/dmatiason09/cloudtrail-threat-detector/actions/workflows/security-scan.yml/badge.svg)](https://github.com/dmatiason09/cloudtrail-threat-detector/actions/workflows/security-scan.yml)
+[![v1.0.0](https://img.shields.io/github/v/tag/dmatiason09/cloudtrail-threat-detector?label=release&color=00D9FF)](https://github.com/dmatiason09/cloudtrail-threat-detector/releases)
+
+→ **[Explore the lab](https://github.com/dmatiason09/cloudtrail-threat-detector)**
 
 ---
 
