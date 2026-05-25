@@ -86,6 +86,8 @@ When I write detection logic or remediation, I map findings back to recognized b
 - MITRE ATT&CK (Cloud techniques)
 - NIST Cybersecurity Framework 2.0 (in study)
 
+**Hands-on practice planned with** Prowler, Scout Suite, CloudGoat, and flAWS.cloud during AWS Security Specialty prep (Q4 2026 – Q1 2027).
+
 ---
 
 ## Learning roadmap
@@ -122,6 +124,11 @@ Public commitments. If a milestone slips, it slips on this README too.
 ## Get in touch
 
 Open to junior Cloud Security Engineer roles, internship opportunities, and pair-learning collaborations on AWS / Azure security labs.
+
+**Availability**
+
+- **Interviews:** from **October 2026** onward.
+- **Full-time / internship start:** from **February 2027** (post-AWS Security Specialty).
 
 <div align="center">
 
