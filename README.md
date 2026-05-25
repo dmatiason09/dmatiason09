@@ -18,9 +18,9 @@ Systems Engineering student at **Universidad de Lima** (5th semester), based in 
 I learn in public. Every concept I study lands in a lab or a tool published on this profile, with code, tests, and references to recognized frameworks.
 
 - Currently building **[`multicloud-iam-lab`](https://github.com/dmatiason09/multicloud-iam-lab)** — IAM hardening + DevSecOps pipeline
-- Studying for **CompTIA Security+** and **CCSK Foundation**
+- Roadmap started **April 2026** — 8 certifications, certificate-driven through Phase 3 (CompTIA Security+ → AWS CCP → CCSK → AWS Security Specialty)
 - Languages: Spanish (native) · English (B2)
-- Open to **junior Cloud Security Engineer** roles, on-site Lima or remote
+- Open to **junior Cloud Security Engineer** roles starting **Q1 2027** (post-AWS Security Specialty) — on-site Lima or remote
 
 ---
 
@@ -94,12 +94,14 @@ Public commitments. If a milestone slips, it slips on this README too.
 
 | When | Milestone |
 |---|---|
-| **Q3 2026** | CompTIA Security+ · CCSK Foundation |
-| **Q4 2026** | AWS Certified Security – Specialty |
-| **Q4 2026** | `multicloud-iam-lab` v1.1 — Azure parity + ephemeral CI deploy |
-| **Q1 2027** | Threat detection lab (CloudTrail + GuardDuty + Defender for Cloud) |
-| **Q2 2027** | CKS — Certified Kubernetes Security Specialist |
-| **2027** | First junior role or internship in Cloud Security |
+| **Q3 2026** · Month 4 | **CompTIA Security+** (SY0-701) |
+| **Q3 2026** · Month 5 | **AWS Cloud Practitioner** (CLF-C02) |
+| **Q4 2026** · Month 6 | **CCSK Foundation** |
+| **Q1 2027** · Month 10 | **AWS Certified Security – Specialty** (SCS-C02) |
+| **Q1 2027** | First junior Cloud Security Engineer role / internship |
+| **Q2 2027** | `multicloud-iam-lab` v1.1 — Azure parity + ephemeral CI deploy |
+| **2027** (alongside first role) | **CCSP** · **CKA** · **CKS** |
+| **2028** | **CISSP** |
 
 ---
 
